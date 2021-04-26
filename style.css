@@ -1,0 +1,88 @@
+html {
+    background-image: url(img/background.jpg);
+}
+body {
+    width: 85%;
+    margin: auto;
+    background-color: white;
+}
+
+* {
+    margin : 0;
+    padding : 0;
+}
+
+header {
+    display: flex;
+    border: 1px solid red;
+}
+
+.header-demenagement {
+    color: #258540;
+    font-size: 35px;
+    font-weight:  bold;
+} 
+.header-garde-meuble {
+    font-size: 20px;
+    font-weight:  bold;
+}
+.header-a-devis {
+    background-color: #21b8a1;
+    margin: auto 40px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-a-tel {
+    background-color: #258541;
+    margin: auto 40px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-space {
+    flex: 1;
+}
+
+.flex-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: inherit;
+    padding: 10px;
+}
+
+  /*--------------------NAV BAR--------------*/
+
+.nav {
+    display: flex;
+}
+.nav > ul > li {
+    list-style-type: none;
+    border: 1px solid red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
